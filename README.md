@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+VitalForge Landing Page
 
-## Getting Started
+Overview
 
-First, run the development server:
+VitalForge is a modern and responsive landing page built for a fictional sports nutrition brand. The project was created as part of a practical challenge to demonstrate web development, problem-solving, and deployment skills.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website showcases products, customer testimonials, a subscription form, and a simple analytics dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Responsive design for desktop and mobile devices
+* Modern user interface built with Tailwind CSS
+* Product showcase section
+* Customer testimonials section
+* Subscription form
+* Analytics dashboard with sample metrics
+* Deployed online with Vercel
+* Source code managed with Git and GitHub
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Technologies Used
 
-## Learn More
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Git
+* GitHub
+* Vercel
 
-To learn more about Next.js, take a look at the following resources:
+Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* page.tsx
+* layout.tsx
+* globals.css
 
-## Deploy on Vercel
+components/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Navbar.tsx
+* Hero.tsx
+* Products.tsx
+* Testimonials.tsx
+* Subscribe.tsx
+* Dashboard.tsx
+* Footer.tsx
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+public/
+
+* Product images
+
+Development Process
+
+1. Created the project using Next.js.
+2. Organized the application into reusable React components.
+3. Implemented responsive design for mobile and desktop.
+4. Added product images and marketing sections.
+5. Built a subscription form.
+6. Created a basic analytics dashboard.
+7. Uploaded the project to GitHub.
+8. Deployed the application with Vercel.
+9. Connected Vercel Analytics for visitor tracking.
+
+Lessons Learned
+
+During this project I learned how to:
+
+* Use Git and GitHub for version control
+* Build responsive interfaces with Tailwind CSS
+* Organize code using reusable React components
+* Deploy production applications with Vercel
+* Connect analytics tools to monitor website traffic
+
+Live Demo
+
+Deployed on Vercel.
+
+Author
+
+Hernán Ardila
