@@ -65,7 +65,7 @@ Alternativas Consideradas
 * Firebase Hosting.
 * React tradicional sin Next.js.
 
-Finalmente elegí Next.js y Tailwind porque ofrecían el mejor equilibrio entre experiencia de desarrollo y facilidad de despliegue.
+Finalmente elegí Next.js y Tailwind CSS porque ofrecían el mejor equilibrio entre productividad, organización del código y flexibilidad de diseño. Además, son tecnologías ampliamente utilizadas en proyectos modernos, lo que representó una buena oportunidad para aprender herramientas relevantes para el desarrollo profesional.
 
 ⸻
 
