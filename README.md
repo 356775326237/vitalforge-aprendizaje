@@ -152,3 +152,26 @@ Además de las herramientas de IA, consulté documentación oficial y recursos t
 * Tailwind CSS
 
 Esto me permitió validar la información obtenida y entender el funcionamiento de las herramientas utilizadas.
+
+5. ¿Qué mejoraría si tuviera más tiempo y por qué?
+
+Si dispusiera de más tiempo, implementaría varias mejoras para acercar el proyecto a un entorno de producción real:
+
+- Autenticación real de usuarios
+
+Actualmente el sistema utiliza una autenticación simulada para cumplir con los requisitos del desafío. Como siguiente paso, integraría una solución como Firebase Authentication o Supabase Auth para permitir el registro, inicio de sesión y gestión de sesiones reales.
+
+- Base de datos y persistencia de información
+
+Las métricas y la información de la suscripción están representadas con datos de demostración. Implementaría una base de datos para almacenar usuarios, planes, pagos y actividad de suscripción de forma persistente.
+
+- Gestión completa de suscripciones
+
+Desarrollaría funcionalidades reales para actualizar planes, pausar membresías y cancelar suscripciones, conectando el sistema con plataformas de pago como Stripe.
+
+- Optimización de experiencia de usuario
+
+Mejoraría la accesibilidad, añadiría validaciones más completas, mensajes de retroalimentación en tiempo real y optimizaría la experiencia móvil para garantizar una navegación más fluida en cualquier dispositivo.
+
+
+Estas mejoras transformarían el proyecto de una demostración funcional a una aplicación mucho más cercana a un producto real listo para ser utilizado por los usuarios.
